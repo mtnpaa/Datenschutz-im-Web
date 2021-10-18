@@ -1,5 +1,5 @@
 # Datenschutz-im-Web
-##### eine kleine Zusammenfassung und Sammlung
+##### eine kleine Zusammenfassung wichtiger Add-ons, Einstellungen und Sammlung von interessanten Texten zum Thema
 
 ## Datenschutz in der BRD
 
@@ -32,7 +32,7 @@ Tracker = Per Cookies oder Fingerprint werden Nutzern IDs zugeordnet und Online-
 -> Blockieren mittels Scriptblocker
 
 
-Wahl des Browsers
+## Wahl des Browsers
 
 Eingrenzung der Auswahl an Browser anhand ihrer Marktanteile im September 2021 [1]
 
@@ -92,13 +92,13 @@ hochgradig anpassbar, Datensammeln deaktivierbar
 [2],[3],[4]
 Tabelle 1: Gegenüberstellung der Browser mit den höchsten Marktanteilen unter Aspekten des Datenschutz.
 Wahl des Browsers  --> Mozilla Firefox
-Wahl der Suchmaschine
+## Wahl der Suchmaschine
 Wahl der Suchmaschine wurde unter Nutzung der Testergebnisse von Stiftung Warentest 2019[5] gewählt. Hierbei wurden 10 Suchmaschinen untersucht mit jeweils 50 Suchanfragen konfrontiert. Zu den getesten Kategorien gehörten zum einen die Qualität der Suchergebnisse, der Nutzungskomfort (PC/Smartphone), das Datensendeverhalten (Android, iOS) und Mängel in der Datenschutzerklärung.
 Testsieger war hier Startpage.com.
 Startpage nutzt Google anonymisiert, aber die Anfrage. (keine Ip- Adresse, keine User-ID, keine Tracking-Cookies)
 
 Abbildung 1: Suchmaschinen Test (Stiftung Warentest)
-Firefox Browserkonfiguration
+## Firefox Browserkonfiguration
 Firefox Datenschutzeinstellungen
 
 Telemetrie deaktivieren, hier werden technische Daten und Interaktionsdaten mit Mozilla geteilt
@@ -152,14 +152,14 @@ Cookie AutoDelete
 PrivacyBadger (blockiert nur drittanbieter Cookies, Filterliste wird nach und nach aufgebaut
 NoScript (Scriptblocker)
 
-Temporary Containers
+## Temporary Containers
 
 https://addons.mozilla.org/de/firefox/addon/temporary-containers/
 Container sind individuelle Speicherblegungen, jeder Tab im Browser hat seinen eigenen Storage, Cookie.
 -jedes Tab und jedes Fenster sind dann in einem isolierten Modus, Informationen können nicht über anderen Tabs erhalten werden
 Nachteil: innerhalb des Containers ist alles möglich (außer "in neuem Tab öffnen") => Eine ordentliche Browser-Konfiguration ist trotzdem erforderlich!
 
-uMatrix
+## uMatrix
 
 
 Browser-Addon von Raymond Hill [Link] (https://github.com/gorhill/uMatrix), GPL v3 Lizenz
@@ -210,7 +210,7 @@ Contra
 
 gewohnte Internetnutzung muss erst aufgebaut werden
 
-Fazit
+## Fazit
 Datensicherheit wird einem nicht geschenkt, man muss dafür was machen.
 Aufgrund von den Firefox-Settings, kann die Standardsuchmaschine geändert werden und die Telemetriedaten  an Mozilla deaktiviert werden.  Auch Cookies, Skripte der Aktivitätenverfolgung, Fingerprinter, Seitenübergreifende Cookies, werden standardmäßig von Firefox geblockt, nach eigenen Angaben, ausgewogen zwischen Schutz und Leistung. Hier ist es ebenfalls möglich den Modus "streng" zu wählen. Es wird aber gewarnt das einige Seiten, dann nicht richtig funktionieren. Hier wäre eine Untersuchung in der Usability zw. uMatrix und den Benutzerdefinierten Settings zu untersuchen.
 Über about:config in Firefox können benutzerdefinierte Einstellungen gewählt werden, fraglich ist, ob dies nicht schon den Browserfingerprint deutlicher macht.
@@ -221,7 +221,7 @@ Kritisch zu sehen ist, dass dieses Add-on nicht von Mozilla aktiv auf seine Sich
 Umso mehr Einstellungen und Addons genutzt werden, desto genauer kann der Fingerprint zugeordnet werden.
 Die Kombination aus den FirefoxSettings, uMatrix und Temporary Containers, sowie eine aufmerksame Nutzung des Web, erschweren aber die persöhnliche Datenerhebung.
 
-
+____________________________________________________________________________________________________________________________________________________________________
 [1][Link] (https://de.statista.com/statistik/daten/studie/158095/umfrage/meistgenutzte-browser-im-internet-weltweit/) (letzter Aufruf 17.10.21)
 [2] (https://computerwelt.at/news/die-wichtigsten-browser-im-grossen-privatsphaere-check/) (letzter Aufruf 17.10.21)
 [3] (https://www.datenschutzexperte.de/blog/datenschutz-im-unternehmen/browser-datenschutz-welcher-browser-schuetzt-ihre-daten/) (letzter Aufruf 17.10.21)
@@ -230,9 +230,9 @@ Die Kombination aus den FirefoxSettings, uMatrix und Temporary Containers, sowie
 [6] (https://www.klicksafe.de/suchmaschinen/datenschutz-und-suchmaschinen/),(letzte Aufruf 17.10.21)
 
 
-
+__________________________________________________________________________________________________________________________________________________________________
 Abbildung 1: Test Stiftung Warentest, https://www.test.de/filestore/5454217_t201904030.pdf?path=/protected/94/21/bde1e62c-88fb-4437-afe3-675c49926acd-protectedfile.pdf&key=85C6EDF75630BA54AA143E109E5D94299797AB75, (zuletzt aufgerufen am 17.10.21)
 Abbildung 2: uMatrix
 
-
+__________________________________________________________________________________________________________________________________________________________________
 Tabelle 1: Gegenüberstellung der Browser mit höchsten Marktanteilen unter Aspekten des Datenschutz.
