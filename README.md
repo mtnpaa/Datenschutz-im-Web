@@ -1,7 +1,7 @@
 # Datenschutz-im-Web
 ##### eine kleine Zusammenfassung und Sammlung
 
-##Datenschutz in der BRD
+## Datenschutz in der BRD
 
 Datenschutz beruht in Deutschland auf den beiden ersten beiden Artikeln des Grundgesetzes (Art.2 | GG, Art1|GG)
 Das Bundesverfassungsgericht hat im sogenannten Volkszählungsurteil im Jahr 1983 daraus das "Recht auf informelle Selbstbestimmung" abgeleitet
@@ -9,7 +9,7 @@ In den Datenschutzgesetzen des Bundes und der Länder sowie in Spezialgesetzen w
 
 Einer der wesentlichen Grundsätze des Datenschutzes ist es, dass die Erhebung, Verarbeitung und Nutzung von personenbezogenen Daten im Prinzip verboten ist, es sei denn, es gibt eine klare Rechtsgrundlage oder der Einzelne gibt seine ausdrückliche Zustimmung. [6]
 
-##Blockieren von Schadsoftware
+## Blockieren von Schadsoftware
 Gängige Methoden zum Ableiten von Daten über Identitäten & Präferenzen während der Webseiteninteraktion
 
 
